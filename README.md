@@ -1,14 +1,14 @@
 # check-cloudwatch
 
+Forked from [jakgibb/cherck-cloudwatch](https://github.com/jakgibb/check-cloudwatch) and updated to use the HashiCorp Vault
+AppRole login and the AWS Secrets Engine.
+
 check-cloudwatch is a simple CLI program, utilising the AWS SDK, to check the status of a specified CloudWatch alarm.  
 The program is designed to be used by Nagios and so will exit with the following exit codes, and echo a description of the alert.
 
 - RC 0: OK
 - RC 2: CRITICAL
 - RC 3: UNKNOWN
-
-It was forked from [jakgibb/cherck-cloudwatch](https://github.com/jakgibb/check-cloudwatch) and updated to use the HashiCorp Vault
-AppRole login and the AWS Secrets Engine.
 
 ### Setup
 
